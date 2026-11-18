@@ -125,4 +125,8 @@ docs/                 预览图
 
 ## 许可
 
-MIT。示例图里的角色美术来自同人游戏项目《放学后的第三个人》，仅作排版效果展示；换成你自己的立绘即可。
+MIT。示例图里的角色美术来自同人游戏项目 [《放学后的第三个人》](https://github.com/linppandtai/empty-classroom)，仅作排版效果展示；换成你自己的立绘即可。
+
+## 相关
+
+- [empty-classroom](https://github.com/linppandtai/empty-classroom) —— 这个 skill 就是为它做的：三张人物卡、阵容图，都是拿它的立绘排的。想看作文字冒险长什么样，去那边。
