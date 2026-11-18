@@ -1,0 +1,61 @@
+{
+  "title": "作品名",
+  "series": "人物",
+  "project": "企划名",
+  "project_en": "PROJECT NAME",
+  "out": "design/cast",
+
+  "palette": {
+    "paper": "#F9F4E8",
+    "ink": "#1D2027",
+    "red": "#D62C3E",
+    "dim": "#807666"
+  },
+
+  "card": { "w": 1080, "h": 1440 },
+
+  "portrait": {
+    "height": 1100,
+    "cx": 0.7315,
+    "crop": 0.86,
+    "fade_start": 0.90,
+    "fade_len": 0.10,
+    "fade_rate": 2.0
+  },
+
+  "text": { "body_size": 22, "quote_size": 22 },
+
+  "lineup": { "enabled": true, "w": 2160, "h": 1440, "height": 1010 },
+
+  "members": [
+    {
+      "no": "01",
+      "portrait": "assets/characters/heroine_neutral.png",
+      "name": "姓　名",
+      "roman": "FAMILY GIVEN",
+      "role": "身份 · 关系",
+      "seat": "solid",
+      "body": [
+        "第一行：一句概括，不超过十六字。",
+        "第二行：一件只有这个角色会做的事。",
+        "第三行：一个推动剧情的事实。"
+      ],
+      "quote": ["引文必须是原文，一行一条。"]
+    },
+    {
+      "no": "02",
+      "portrait": "assets/characters/rival_neutral.png",
+      "name": "另一个人",
+      "roman": "ANOTHER ONE",
+      "role": "一年级 · 第三个人",
+      "seat": "hollow",
+      "scale": 1.10,
+      "body": [
+        "seat 写成 hollow 时，右上角是朱红空框。",
+        "用于标记缺席者、或不在座位上的人。",
+        "scale 用来补偿画幅比例差异。"
+      ],
+      "quote": ["较长的引文请自己拆成两行，", "避免自动断行把词拆开。"]
+    }
+  ]
+}
